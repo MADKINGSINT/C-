@@ -3,14 +3,14 @@ Console.Write("введите имя пользователя:  ");
 string username = Console.ReadLine();
 
 
-if(username.ToLower == "мария") {
+if(username == "мария") {
     Console.WriteLine("Здравствуйте, госпожа");
 }
-else if (username.ToLower == "дмитрий")  {
+else if (username == "дмитрий")  {
     Console.WriteLine("Здравствуйте господин");
 
 }
-else if (username.ToLower == "илья") {
+else if (username == "илья") {
     Console.WriteLine("Здравствуйте о великий хозяин");
 }
 else {
